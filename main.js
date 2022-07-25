@@ -1,1 +1,1 @@
-serve((req: Request) => new Response(JSON.stringify({ hello: 'world'})))
+serve((req: Request) => new Response('Hello Deno'))
